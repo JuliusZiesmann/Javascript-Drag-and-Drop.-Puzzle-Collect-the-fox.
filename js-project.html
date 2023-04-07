@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+</ruby>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Julius Ziesmann" content="juZIus">
+    <link rel="shortcut icon" type="image/x-icon" href="images\LG 3.ico"> 
+    <link rel="apple-touch-icon" sizes="128x128" href="images\LG 3.ico"> 
+    <link rel="shortcut icon" sizes="128x128" href="images\LG 3.ico">
+    <link rel="stylesheet" href="scripts\css\javascript.css">
+    <title>juZIus</title>
+    <style>
+        li {
+            list-style-type: none;
+        }
+        ul {
+            padding-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <a href= "blog.html" >Blog</a>
+        <a href="author.html">Über Autor</a>
+        <a href="index.html">Home</a>
+        <a class="scale" style="float:left; margin-top:2px; margin-right:40px;"><img src="images\LOGO4.jpg" width="120" height="55"></a>
+    </div>
+    <div class="center">
+        <h1>Puzzle: Sammle den Fuchs</h1>
+    </div>
+    <div class="flex-container">
+        <div id="erste" class="item1" ondragover="overDrope(event)" ondrop="drop(event)" width="80" height="160"></div>
+        <div id="zweite" class="item2" ondragover="overDrope(event)" ondrop="drop(event)" width="80" height="160"></div>
+    </div>
+    <div class="flex-container">
+        <div id="dritte" class="item1" ondragover="overDrope(event)" ondrop="drop(event)" width="80" height="160"></div>
+        <div id="vierte" class="item2" ondragover="overDrope(event)" ondrop="drop(event)" width="80" height="160"></div>
+    </div>
+    <div class="center">
+        <img id="draggedItem3" src="images\javascriptPriject\image_part_004.png" width="80" height="160" draggable="true" ondragstart="drag(event)">
+        <img id="draggedItem1" src="images\javascriptPriject\image_part_002.png" width="80" height="160" draggable="true" ondragstart="drag(event)">
+        <img id="draggedItem2" src="images\javascriptPriject\image_part_003.png" width="80" height="160" draggable="true" ondragstart="drag(event)">
+        <img id="draggedItem" src="images\javascriptPriject\image_part_001.png" width="80" height="160" draggable="true" ondragstart="drag(event)"><br><br>
+        <button class="btn" style="width:10%" onclick="location.reload(); return false;">RESET</button>
+    </div>
+
+    </div>
+    <footer>
+        <div class="footer">
+   
+            <div class="item1">
+                <ul><br>
+                    <li><br><a href= "C_sharp.html">C#</a></li>
+                    <li><br><a href="java.html">Java</a></li> 
+                    <li><br><a href= "author.html">Über Autor</a></li>
+                    <li><br><a href= "blog.html" >Blog</a></li>
+                 </ul>
+            </div>
+            <div class="item2">
+                <ul><br><br><br>
+                    <li><br><a href= "impressum.html">IMPRESSUM</a><br><br><a href= "datenschutz.html" >DATENSCHUTZ</a></li><br>
+                    <li><a>Copyright Company juZIus © 2023. All rights reserved.</a></li><br>
+                    <li><a href = "index.html"><img src="images\LOGO4.jpg" width="120" height="40"></a></li>
+                </ul>
+            </div><br><br>
+            <div class="item3">
+                <ul><br><br>
+                    <li>
+                        <li><a href = "https://github.com/JuliusZiesmann"><img src="images\igithub.png" width="48" height="48">GitHub</a>&nbsp&nbsp&nbsp&nbsp</li>
+                    </li><br>
+                    <li>
+                        <li><a href = "https://www.facebook.com/JuliusZiesmann"><img src="images\facebook.png" width="48" height="48">Facebook</a></li>
+                    </li><br>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts\js\js-project.js"></script>
+</body>
+</html>
